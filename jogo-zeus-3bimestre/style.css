@@ -1,0 +1,45 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input{
+
+}
+#formPlayer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    background-color: gray;
+    padding-inline: 10px;
+}
+#playerList{
+    background-color: rgba(41, 42, 42, 0.5);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.playerItem{
+    font-size: 20px;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.playerItem button{
+    background-color: red;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    padding: 4px 4px;
+    cursor: pointer;
+    max-width: 20%;
+}
+
+#updateForm {
+    display: none;
+}

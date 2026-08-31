@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#player{
+    margin-left: 1px;
+    margin-top: 1px;
+}
+img{
+    height: 150px;
+    width: 75px;
+    object-fit: cover;
+}
