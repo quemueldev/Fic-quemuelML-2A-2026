@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo</title>
+</head>
+<body>
+    <div id="player"></div>
+    <form action="" id="formPlayer">
+        <label for="">Criar Player</label>
+        <input type="text" id="playerName" placeholder="Digite seu nome">
+       
+        <div class="radioLine">
+            <input type="radio" id="arqueiro" name="classe" value="arqueiro">
+            <label for="arqueiro">Arqueiro</label>
+        </div>
+        <div class="radioLine">
+            <input type="radio" id="guerreiro" name="classe" value="guerreiro">
+            <label for="guerreiro">Guerreiro</label>
+        </div>
+        <input type="submit" >
+    </form>
+    
+    <div>
+        <h2>Players</h2>
+        <form action="" id="updateForm">
+            <input type="text" id="updatePlayerName" placeholder="Digite o novo nome">
+       
+        <div class="radioLine">
+            <input type="radio" id="updateArqueiro" name="updateClasse" value="arqueiro">
+            <label for="updateArqueiro">Arqueiro</label>
+        </div>
+        <div class="radioLine">
+            <input type="radio" id="updateGuerreiro" name="updateClasse" value="guerreiro">
+            <label for="updateGuerreiro">Guerreiro</label>
+        </div>
+        <input type="submit" >
+        </form>
+        <ul id="playerList">
+        </ul>
+    </div>
+    
+</body>
+<script type="module" src="indexJs/main.js"></script>
+</html>
